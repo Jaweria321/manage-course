@@ -14,7 +14,9 @@ const CourseListPage = () => {
         <p>
             Course List Page
         </p>
+        {/* 
         {location.pathname === '/courselist/123' && <button onClick={ () => {history.goBack()}}>Go Back</button>}
+        */}
         
         </>
     )
