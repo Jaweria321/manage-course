@@ -1,9 +1,9 @@
-import React from 'react'
-import './cssStyle.css';
+import React from 'react';
 const AboutPage = () => {
     //inline style
     const textStyle = {
-        fontSize: "50px"
+        fontSize: "50px",
+        color: "green"
     }
     return (
         <p style={textStyle}>

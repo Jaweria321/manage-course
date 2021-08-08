@@ -1,8 +1,7 @@
-import React from 'react'
-import style from './cssStyleModule.module.css';
+import React from 'react';
 const CourseListPage = () => {
     return (
-        <p className={style.textFont}>
+        <p>
             Course List Page
         </p>
     )
