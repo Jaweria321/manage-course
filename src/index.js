@@ -12,7 +12,7 @@ ReactDOM.render(
       <Route exact path="/" component={App} />
       <Route exact path="/home" component={HomePage} />
       <Route exact path="/about" component={AboutPage} />
-      <Route exact path="/courselist" component={CourseListPage} />
+      <Route exact path="/courselist/:courseid" component={CourseListPage} />
     </BrowserRouter>
   </React.StrictMode>
   , document.getElementById('root')
